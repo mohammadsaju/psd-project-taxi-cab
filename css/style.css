@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*==================
+    header start
+==================*/
+header{
+    background-image: url(../img/header/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    height: 742px;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active,
+ .navbar-dark .navbar-nav .nav-link.show, 
+ .navbar-dark .navbar-nav .show>.nav-link{
+    color: black !important;
+    background: #ffc61a;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    padding: 4px 18px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: black !important;
+    background: #ffc61a;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.header-content h2{
+    color: #ffc61a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-content h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.header-content h5 {
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+/*==========end header===========*/
+
+/*==========cab section start==============*/
+.cab{
+    background-color: #ffc61a;
+    height: 715px;
+}
+.cab-left h4 {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.cab-left h1 {
+    font-weight: 400;
+    font-size: 41px;
+}
+
+.short-describtion {
+    padding: 34px 0px;
+}
+button.btn {
+    background: #000000;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 9px 19px;
+    margin-top: 26px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+button.btn:hover {
+    color: #ffc61a;
+}
+
+.cab-right{
+    background-color: #fff;
+}
+
+.cab .cab-right h1 {
+    background-color: #000000;
+    margin: 0px;
+    padding-left: 55px;
+    padding-top: 16px;
+    padding-bottom: 19px;
+}
+.cab-right form a{
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.cab-right form a:hover{
+    background-color: #000000;
+    color: #ffc61a;
+}
+.cab .cab-right form input[type="text"]{
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border: 0;
+    border-bottom: 2px solid #e4e4e4;
+    border-radius: 0px;
+}
+.cab .cab-right form select{
+    border: 0;
+    border-bottom: 2px solid #e4e4e4;
+    text-transform: capitalize;
+}
+.cab .cab-right .form-control:focus{
+    border-color: #ffc61a;
+    box-shadow: none;
+}
+/*==========cab section end==============*/
+/*==========CARD SECTION START==============*/
+.card {
+    border: none !important;
+    background-color: #f5f4f2 !important;
+    margin-top: 30px;
+}
+.card-body p {
+    margin-top: 21px;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+.card-body h3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.card-car img {
+    margin-top: -87px;
+    width: 100%;
+}
+.card-img img {
+    position: absolute;
+    margin-top: -74px;
+    margin-left: 101px;
+}
+/*==========CARD SECTION END==============*/
+/*==========CONTENT SECITON START==============*/
+.content{
+    background-image: url(../img/content/content.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 755px;
+}
+.content-info {
+    margin-top: 94px;
+}
+.content-info img {
+    position: absolute;
+}
+
+.content-text {
+    position: relative;
+    margin-left: 137px;
+}
+.content-text p {
+    font-size: 17px;
+}
+/*==========CONTENT SECTION END==============*/
+/*========== SERVICE SECTION START==============*/
+.service-info p {
+    margin-top: 28px;
+    margin-bottom: 70px;
+    font-size: 22px;
+}
+.service-img img {
+    margin-right: 28px;
+}
+.image-part img {
+    margin-top: 23px;
+}
+/*========== SERVICE SECTION END==============*/
+/*========== TESTIMONIALS SECTION START==============*/
+.testimonials{
+    background-image: url(../img/testimonials/testimonials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 612px;
+}
+.testimonial-title h2{
+    color: #ffc61a;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.testimonial-title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.bio img {
+    position: absolute;
+}
+
+.bio-title {
+    position: relative;
+    margin-left: 102px;
+}
+.testimonial-item {
+    background: #000000;
+    padding: 30px;
+    border-radius: 31px;
+}
+/*========== TESTIMONIALS SECTION END==============*/
+/*========== call section start==============*/
+.call {
+    background: #ffc61a;
+}
+
+.call h1 {
+    font-size: 57px;
+    margin-top: 22px;
+}
+/*========== call section end==============*/
+/*========== FOOTER SECTION START==============*/
+footer{
+    background-image: url(../img/footer/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.cab-hub hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 6px solid rgba(0,0,0,.1);
+    background: #ffc61a;
+}
+.cab-hub h3 {
+    text-transform: uppercase;
+}
+
+.social-media i {
+    margin-top: 12px;
+    color: #ffc61a;
+    margin-right: 18px;
+    font-size: 19px;
+}
+.download hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 6px solid rgba(0,0,0,.1);
+    background: #ffc61a;
+}
+.download h3 {
+    text-transform: uppercase;
+}
+.users {display: flex;}
+
+.users-name {margin-right: 29px;}
+
+
+.users-img img {height: 59px;}
+
+.users-name h5 {
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #ffc61a;
+}
+.contact hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 6px solid rgba(0,0,0,.1);
+    background: #ffc61a;
+}
+.contact h3 {
+    text-transform: uppercase;
+}
+.street {
+    display: flex;
+}
+
+.street i {
+    margin-right: 30px;
+    margin-top: 12px;
+}
+.number {
+    display: flex;
+}
+
+.number i {
+    margin-right: 30px;
+    margin-top: 12px;
+}
+.email {
+    display: flex;
+}
+
+.email i {
+    margin-right: 30px;
+    margin-top: 12px;
+}
+.domain-name {
+    display: flex;
+}
+
+.domain-name i {
+    margin-right: 30px;
+    margin-top: 12px;
+}
+.footer-last {
+    background: #000000;
+}
+
+.footer-last p {
+    margin: 0;
+    color: #ffffff;
+}
+/*========== FOOTER SECTION END==============*/

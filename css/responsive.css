@@ -1,0 +1,320 @@
+/*======header start======*/
+@media(max-width: 768px){
+    img.mt-3.img-fluid.header-img {
+        margin-top: 30px !important;
+    }
+    ul{
+        margin-top: 20px !important;
+    }
+}
+/*====== 556 screen =======*/
+@media(max-width: 556px){
+    
+img.mt-3.img-fluid.header-img {
+    margin-top: 20px !important;
+}
+}
+/*======= 480 is okk ======*/
+@media(max-width: 480px){
+    .header-content h1 {
+        font-weight: bold;
+        font-size: 45px;
+    }
+}
+    
+/*===========320==========*/
+@media(max-width: 320px){
+    header{
+        height: 568px;
+    }
+    .header-content h2 {
+        color: #ffc61a;
+        font-weight: bold;
+        font-size: 27px;
+    }
+    .header-content h1 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .header-content h5 {
+        letter-spacing: 3px;
+        font-size: 14px;
+    }
+}
+
+/*=======290px=============*/
+@media(max-width: 290px){
+    header{
+        height: 551px;
+    }
+    .header-content h2 {
+        color: #ffc61a;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .header-content h1 {
+        font-weight: bold;
+        font-size: 21px;
+    }
+    img.mt-3.img-fluid.header-img {
+        margin-top: -8px !important;
+    }
+    button, input, optgroup, select, textarea {
+        margin-top: 18px !important;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+}
+/*======header end======*/
+/*========1200px=========*/
+@media(max-width: 1200px){
+    .cab{
+        height: 661px !important;
+    }
+}
+/*=====CAB SECTION START======*/
+@media(max-width: 768px){
+    .cab{
+        height: 1080px !important;
+    }
+    .cab-left.py-5.mt-5 {
+        margin-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+/*====556px=====*/
+@media(max-width: 556px){
+    .cab{
+        height: 1019px !important;
+    }
+    .cab-left.py-5.mt-5 {
+        margin-top: -40px !important;
+        padding-bottom: 0px !important;
+    }
+    .cab-right.mt-5 {
+        margin-top: 1rem !important;
+    }
+}
+/*====480px=====*/
+@media(max-width: 480px){
+    .cab{
+        height: 1060px !important;
+    }
+}
+/*====320px=====*/
+@media(max-width: 320px){
+    .cab{
+        height: 1193px !important;
+    }
+    .cab-left h1 {
+        font-size: 32px;
+    }
+    .cab-left h4 {
+        font-weight: 600;
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    .short-describtion {
+        padding: 12px 0px;
+    }
+    .col-lg-5.col-md-12.pt-5 {
+        padding-top: 2rem !important;
+    }
+    .cab .cab-right form input[type="text"]{
+        width: 100% !important;
+        display: block;
+    }
+}
+/*====290px=====*/
+@media(max-width: 290px){
+    .cab .cab-right form input[type="text"]{
+        width: 100% !important;
+        display: block;
+    }
+    .cab .cab-right h1{
+        font-size: 20px;
+    }
+    .cab-left h1 {
+        font-size: 28px;
+    }
+    .cab-left.py-5.mt-5 {
+        margin-top: -61px !important;
+        padding-bottom: 0px !important;
+    }
+}
+/*=====CAB SECTION END======*/
+/*=====CARD SECTION START======*/
+@media(max-width: 992px){
+    .card-img img{
+        margin-left: 71px;
+    }
+}
+@media(max-width: 768px){
+    .card-img img{
+        margin-left: 271px;
+    }
+}
+@media(max-width: 556px){
+    .card-img img{
+       margin-left: 189px !important;
+    }
+}
+@media(max-width: 480px){
+    .card-img img{
+        margin-left: 151px !important;
+    }
+}
+@media(max-width: 320px){
+    .card-img img{
+        margin-left: 72px !important;
+    }
+}
+@media(max-width: 290px){
+    .card-img img{
+        margin-left: 56px !important;
+    }
+}
+
+/*=====CARD SECTION END======*/
+
+/*==========CONTENT SECITON START==============*/
+/*====1200px====*/
+@media(max-width: 1200px){
+    .content{
+        height: 634px;
+    }
+}
+/*====768px====*/
+@media(max-width: 768px){
+    .content{
+        height: 843px;
+    }
+    .content-info {
+        margin-top: 60px;
+    }
+    
+}
+/*===480px====*/
+@media(max-width: 480px){
+    .content{
+        height: 940px;
+    }
+    .content-info {
+        margin-top: 63px;
+    }
+}
+/*===320px====*/
+@media(max-width: 320px){
+    .content{
+        height: 636px;
+    }
+    .content-info {
+        margin-top: 30px;
+    }
+    .content-title h2 {
+        font-size: 29px;
+    }
+    .content-title h1 {
+        font-size: 25px;
+    }
+    .content-info img {
+        width: 20%;
+    }
+    .content-text{
+        margin-left: 100px;
+    }
+    .content-text h4 {
+        font-size: 18px;
+    }
+    
+    .content-text p {
+        font-size: 11px;
+    }
+}
+/*====290px========*/
+@media(max-width: 290px){
+    .content{
+        height: 710px;
+    }
+}
+/*==========CONTENT SECTION END==============*/
+/*==========SERVICE SECTION START==============*/
+@media(max-width: 992px){
+    .service-img img {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 320px){
+    .service-title h2 {
+        font-size: 23px;
+    }
+    .service-title h1 {
+        font-size: 25px;
+    }
+    .service-info h3 {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    
+    .service-info p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    
+    .service-img img {
+        width: 50%;
+    }
+}
+/*==========SERVICE SECTION END==============*/
+/*==========testimonials section start==============*/
+@media(max-width: 768px){
+    .testimonials{
+        height: 843px;
+    }
+}
+@media(max-width: 480px){
+    .testimonials{
+        height: 780px;
+    }
+    .testimonial-title {
+        margin-bottom: -52px;
+        margin-top: -21px;
+    }
+}
+@media(max-width: 320px){
+    .testimonials{
+        height: 784px;
+    }
+    .testimonial-title {
+        margin-bottom: -66px;
+        margin-top: -39px;
+    }
+    
+    .testimonial-title h1 {
+        font-size: 31px;
+    }
+    
+    .testimonial-title h2 {
+        font-size: 22px;
+    }
+}
+@media(max-width: 290px){
+    .testimonials{
+        height: 826px;
+    }
+}
+/*==========testimonials section end==============*/
+/*========== call section start==============*/
+@media(max-width: 320px){
+    .call h3 {
+        font-size: 20px;
+    }
+    
+    .call h1 {
+        font-size: 31px;
+    }
+}
+/*========== call section end==============*/
+/*========== FOOTER SECTION START==============*/
+/*========== FOOTER SECTION START==============*/
